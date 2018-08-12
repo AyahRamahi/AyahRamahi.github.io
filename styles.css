@@ -136,7 +136,7 @@ hr {
 p a:link {
     text-decoration: underline;
 }
-@media screen and (max-width: 668px){
+@media only screen and (max-width: 760px){
     body {
         width:100%;
     }
