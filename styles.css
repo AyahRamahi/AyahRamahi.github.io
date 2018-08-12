@@ -136,7 +136,7 @@ hr {
 p a:link {
     text-decoration: underline;
 }
-@media only screen and (max-width: 1164px){
+@media only screen and (max-width: 760px){
     body {
         width:100%;
     }
@@ -180,5 +180,10 @@ p a:link {
     }
     #top {
         justify-content: center;
+    }
+}
+@media only screen and (max-width: 1164px){
+    .parts {
+        justify-content:center;   
     }
 }
