@@ -39,7 +39,7 @@ html, body {
     flex-wrap: wrap;
     justify-content: flex-end;
     overflow:hidden;
-    width:85%;
+    margin-left:auto;
 }
 #top , .pp{
     font-family:cursive;
@@ -147,6 +147,7 @@ p a:link {
         margin:0;
     }  
     .parts {
+        width:100%;
         justify-content:center; 
     } 
     .pp {
