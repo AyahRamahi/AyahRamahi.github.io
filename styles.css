@@ -137,6 +137,11 @@ hr {
 p a:link {
     text-decoration: underline;
 }
+
+#top {
+    background-image: url('img/cover_photo.jpg');
+    height:100%;
+}
 @media only screen and (max-width: 760px){
     body {
         width:100%;
@@ -149,7 +154,6 @@ p a:link {
     }  
     .parts {
         width:100%;
-        justify-content:center; 
     } 
     .pp {
         margin-left: auto;
@@ -182,6 +186,13 @@ p a:link {
     }
     #top {
         justify-content: center;
+        background-image: url('img/cover_photo_phone.jpg');
+    }
+    .parts a{
+        font-size: 20px;
+    }
+    #main_name {
+        font-size: 40px;
     }
 }
 @media only screen and (max-width: 1164px){
