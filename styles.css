@@ -139,7 +139,7 @@ p a:link {
 }
 
 #top {
-    background-image: url('img/cover_photo.jpg');
+    background-image: url('img/cover_photo.JPG');
     height:100%;
 }
 @media only screen and (max-width: 760px){
