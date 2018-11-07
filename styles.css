@@ -139,7 +139,8 @@ p a:link {
 }
 
 #top {
-    background-image: url('img/cover_photo.JPG');
+    background-image: url('img/test10.jpeg');
+    background-size: cover;
     height:100%;
 }
 @media only screen and (max-width: 760px){
@@ -186,8 +187,6 @@ p a:link {
     }
     #top {
         justify-content: center;
-        height: 40%;
-        background-image: url('img/cover_photo_phone.jpg');
     }
     .parts a{
         font-size: 17px;
