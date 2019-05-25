@@ -1,0 +1,84 @@
+html {
+	background-color: #161618;
+}
+.content{
+	margin-top: 30vmin;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.name{
+	text-align: center;
+	font-family: 'Tangerine', cursive;
+	font-size: 15vmin;
+	font-weight: lightest !important;
+	margin-bottom: 0;
+	color:white;
+}
+.emoji{
+	text-align: center;
+}
+.desc{
+	margin-top:0;
+	color:rgb(84, 97, 108);
+	font-family: 'Source Code Pro', monospace;
+	font-size: 5vmin;
+	text-align: center;
+}
+.bar{
+	text-align:center;
+}
+i{
+	font-size: 3vmin;
+	margin: 1% 1%;
+	font-family: 'Source Code Pro', monospace;
+	font-style: normal;
+}
+a{
+	padding: 0.5% 0.5% 0.5% 0.5%;
+	border-radius: 5px;
+	text-decoration: none;
+}
+a:hover{
+	transition: background-color 0.3s ease-out;
+	background-color: rgba(255, 255, 255,0.1);
+	color:white !important;
+	transition: color 0s ease-out;
+}
+.social a{
+	color:gray !important;
+}
+.social a:hover {
+	background-color: #161618;
+	transition: color 0.7s ease;
+	color:white;
+}
+.social {
+	text-align: center;
+	position: fixed;
+	bottom:0;
+	right:0;
+	left:0;
+}
+#quote {
+	color:#161618;
+}
+::selection {
+	color: #1f8eef;
+}
+@media only screen and (max-width: 600px) {
+	.content {
+		margin-top: 35vh;
+	}
+	.name {
+		font-size: 11vmin;
+	}
+	.desc{
+		font-size: 4vmin;
+	}
+	i{
+		font-size: 3vmin;
+		display:inline-block;
+		margin: 10px 10px 10px 10px;
+	}
+}
