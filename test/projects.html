@@ -10,7 +10,7 @@
 
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
-		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
 
 		<style>
 			html {
@@ -20,43 +20,72 @@
 				width: 70vw;
 				margin-left: auto;
 				margin-right: auto;
+				font-family: 'Lora', serif;
+				line-height: 1.3;
 				color:white;
 			}
-			ul h3{
-				font-size: 6vmin;
-				line-height: 8vmin;
-			}
-			ul h5{
+			h3{
 				font-size: 5vmin;
-				line-height: 4vmin;	
+				line-height: 8vmin;
+				margin-bottom: 0.5vmin;
 			}
-			ul p{
+			p{
 				font-size: 4.5vmin;
-				line-height: 6.5vmin;
+				margin-top: 0;
+				margin-bottom: 2vmin;
+			}
+			li, .desc{
+				font-size: 3vmin;
 			}
 			a {
+				color:black;
+				text-decoration:none;
+				padding: 1px;
+			}
+			a:hover{
 				color:white;
+				background-color: black !important;
+				transition: color 0.3s ease-out;
+				transition: background-color 0.3s ease-out;
+			}
+			.tags i{
+				color:black;
+				font-size: 3vmin;
+				margin-right: 2vmin;
+				padding:2px;
+				border-radius: 3px;
+			}
+			.tags{
+				margin-bottom: 5vmin;
 			}
 		</style>
 	</head>
 	<body>
-		<ul>
-			<li>
-				<h3>Quotr (<a href="">Link</a>)</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu fringilla magna. Praesent ante lacus, molestie ac finibus ut, scelerisque ac nisl. In eu neque faucibus, consectetur ligula sodales, faucibus neque. </p>
-			</li>
-			<li>
-				<h3>A-Read (<a href="">Link</a>)</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu fringilla magna. Praesent ante lacus, molestie ac finibus ut, scelerisque ac nisl. In eu neque faucibus, consectetur ligula sodales, faucibus neque. </p>
-			</li>
-			<li>
-				<h3>Programming Club (<a href="">Link</a>)</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu fringilla magna. Praesent ante lacus, molestie ac finibus ut, scelerisque ac nisl. In eu neque faucibus, consectetur ligula sodales, faucibus neque. </p>
-			</li>
-			<li>
-				<h3>Library system (university project)</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu fringilla magna. Praesent ante lacus, molestie ac finibus ut, scelerisque ac nisl. In eu neque faucibus, consectetur ligula sodales, faucibus neque. </p>
-			</li>
-		</ul>
+		<h3>Quotr &#128221 ( <a href="" target="_blank" style="background-color:rgb(202, 214, 197);">Source Code</a> )</h3>
+		<p>Made using Flask, Quotr is a quotes-sharing website. A user can sign-up for an account, then login-in to it, then they can add their favorite quotes and who said them. On the home screen, a random quote from all the added ones by users is showed. </p>
+		<div class="tags">
+			<i style="background-color:rgb(224, 159, 152);">Flask</i>
+			<i style="background-color:rgb(55, 118, 171);">Python</i>
+			<i style="background-color:rgb(232, 91, 70);;">SQLAlchemy</i>
+			<i style="background-color:rgb(51, 103, 145);;">PostgreSQL</i>
+		</div>
+
+		<h3>A-Read &#128218 ( <a href="" target="_blank" style="background-color:rgb(202, 214, 197);">Source Code</a> )</h3>
+		<p>Made using Flask, A-Read is a website to rate books and give reviews about them. A user can search for books in the database, give rates, add reviews and read others users reviews. A Goodreads API was used to give a json file that has a books information gives its ISBN.</p>
+		<div class="tags">
+			<i style="background-color:rgb(224, 159, 152);">Flask</i>
+			<i style="background-color:rgb(55, 118, 171);">Python</i>
+			<i style="background-color:rgb(232, 91, 70);;">SQLAlchemy</i>
+			<i style="background-color:rgb(51, 103, 145);;">PostgreSQL</i>
+		</div>
+
+		<h3>Chit-Chat 💬 ( <a href="" target="_blank" style="background-color:rgb(202, 214, 197);">Source Code</a> )</h3>
+		<p>Made using Flask, Chit-Chat is a website used to create chat rooms with no need to register for an account, and chat to others on these rooms. </p>
+		<div class="tags">
+			<i style="background-color:rgb(224, 159, 152);">Flask</i>
+			<i style="background-color:rgb(55, 118, 171);">Python</i>
+			<i style="background-color:rgb(242, 234, 145);">Socket.IO</i>
+		</div>
+		<h1 style="text-align: center;">&#10024</h1>
 	</body>
 </html>
