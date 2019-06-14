@@ -2,10 +2,9 @@
 	<script>
 		var colors = ["red","blue"];
 		function start(){
-			var width = window.innerWidth;
-			var height = window.innerHeight;
+			var d = window.innerWidth/10.0;
 			for (var i=0; i<100; i++){
-				document.body.innerHTML += '<canvas width="'+ width/10.0 +'" height="'+ height/5.0 +'" style="background-color:'+ colors[i] +';"></canvas>';
+				document.body.innerHTML += '<canvas width="'+ d +'" height="'+ d +'" style="background-color:'+ colors[i] +';"></canvas>';
 			}
 			document.body.innerHTML += '<h1 style="text-align: center;">&#10024</h1>';
 		}
