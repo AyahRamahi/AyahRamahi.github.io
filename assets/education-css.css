@@ -30,3 +30,6 @@ a:hover{
 	transition: color 0.3s ease-out;
 	transition: background-color 0.3s ease-out;
 }
+ul {
+	line-height: 5vmin;
+}
