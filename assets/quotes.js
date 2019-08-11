@@ -12,11 +12,11 @@ window.onload = function(){
 			    "I'll search the universe.",
 			    "Be afraid and do it anyway!",
 			    "But only the fearless can be great.",
-			    "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
 			    "Go forth and have no fear.",
 			    "Lost in your mind? I wanna know...",
 			    "Seek, and ye shall find.",
-			    "Success is my only option, failure's not."
+			    "Success is my only option, failure's not.",
+          "Show, do not tell."
 			];
 		document.getElementById("quote").textContent = quotes[Math.floor(Math.random() * quotes.length)];
 	};
