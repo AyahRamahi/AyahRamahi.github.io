@@ -45,21 +45,6 @@ a:hover{
 	color:white !important;
 	transition: color 0s ease-out;
 }
-.social a{
-	color:gray !important;
-}
-.social a:hover {
-	background-color: #161618;
-	transition: color 0.7s ease;
-	color:white;
-}
-.social {
-	text-align: center;
-	position: fixed;
-	bottom:0;
-	right:0;
-	left:0;
-}
 #quote {
 	color:#161618;
 }
