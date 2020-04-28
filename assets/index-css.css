@@ -17,16 +17,18 @@ html {
 }
 .emoji{
 	text-align: center;
+	margin-top: 20px;
 }
 .desc{
 	margin-top:0;
 	color:rgb(84, 97, 108);
 	font-family: 'Source Code Pro', monospace;
-	font-size: 5vmin;
+	font-size: 3vmin;
 	text-align: center;
 }
 .bar{
 	text-align:center;
+	margin-top: 20px;
 }
 i{
 	font-size: 3vmin;
@@ -61,7 +63,7 @@ a:hover{
 	.desc{
 		font-size: 4vmin;
 	}
-	i{
+	.bar i{
 		font-size: 3vmin;
 		display:inline-block;
 		margin: 10px 10px 10px 10px;
