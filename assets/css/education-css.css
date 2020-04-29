@@ -1,12 +1,12 @@
 html {
-	background-color: #161618;
+	background-color: rgb(7, 25, 47);
 }
 body {
 	font-family: 'Lora', serif;
 	line-height: 1.3;
 	color:white;
 }
-.content {
+.content{
 	width: 70vw;
 	margin-left: auto;
 	margin-right: auto;
@@ -14,12 +14,9 @@ body {
 h3{
 	font-size: 5vmin;
 	line-height: 8vmin;
-	margin-bottom: 0.5vmin;
 }
 p{
 	font-size: 4.5vmin;
-	margin-top: 0;
-	margin-bottom: 2vmin;
 }
 li, .desc{
 	font-size: 3vmin;
@@ -35,13 +32,6 @@ a:hover{
 	transition: color 0.3s ease-out;
 	transition: background-color 0.3s ease-out;
 }
-.tags i{
-	color:black;
-	font-size: 3vmin;
-	margin-right: 2vmin;
-	padding:2px;
-	border-radius: 3px;
-}
-.tags{
-	margin-bottom: 5vmin;
+ul {
+	line-height: 5vmin;
 }

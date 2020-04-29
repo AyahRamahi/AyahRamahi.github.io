@@ -1,8 +1,13 @@
 html {
-	background-color: #161618;
+	height: 100%;
+}
+body{
+	width:100%;
+	margin:0;
+	height: 100%;
 }
 .content{
-	margin-top: 30vmin;
+	padding-top: 20vmin;
 	width:100%;
 	margin-left:auto;
 	margin-right:auto;
@@ -12,8 +17,8 @@ html {
 	font-family: 'Tangerine', cursive;
 	font-size: 15vmin;
 	font-weight: lightest !important;
-	margin-bottom: 0;
 	color:white;
+	margin-bottom: 5vmin;
 }
 .emoji{
 	text-align: center;
@@ -55,7 +60,7 @@ a:hover{
 }
 @media only screen and (max-width: 600px) {
 	.content {
-		margin-top: 35vh;
+		padding-top: 35vh;
 	}
 	.name {
 		font-size: 11vmin;

@@ -14,13 +14,13 @@
 		<!-- icons -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<!-- personal styling -->
-		<link href="assets/index-css.css" rel="stylesheet">
-		<link href="assets/general-css.css" rel="stylesheet">
+		<link href="assets/css/index-css.css" rel="stylesheet">
+		<link href="assets/css/general-css.css" rel="stylesheet">
 		<!-- quotes -->
-		<script type="text/javascript" src="assets/quotes.js"></script>
+		<script type="text/javascript" src="assets/js/quotes.js"></script>
 
 	</head>
-	<body>
+	<body id="main-background">
 		<div class="icon-bar">
 		  <a href="https://github.com/AyahRamahi" target="_blank" class="github">
 				<i class="fa fa-github"></i>
@@ -49,7 +49,33 @@
 				<i><a style="color:#ef1e37;" href="education.html">Education</a></i>
 				<i><a style="color:#bc9ff9;" href="about.html">About</a></i>
 			</div>
+			<!--
 			<p class="desc" id="quote"></p>
+			-->
 		</div>
+
+		<!-- animated background -->
+		<script src="assets/js/three.r95.min.js"></script>
+		<script src="assets/js/vanta.birds.min.js"></script>
+		<script>
+			VANTA.BIRDS({
+				el: "#main-background",
+				mouseControls: true,
+				touchControls: true,
+				minHeight: 200.00,
+				minWidth: 200.00,
+				scale: 1.00,
+				scaleMobile: 1.00,
+				color1: 0xd1ff,
+				color2: 0xff0a36,
+				birdSize: 0.80,
+				wingSpan: 23.00,
+				speedLimit: 3.00,
+				separation: 33.00,
+				alignment: 30.00,
+				cohesion: 12.00,
+				quantity: 2.00
+			})
+		</script>
 	</body>
 </html>
