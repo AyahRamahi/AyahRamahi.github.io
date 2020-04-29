@@ -7,8 +7,14 @@ body{
 	height: 100%;
 }
 .content{
-	padding-top: 20vmin;
-	width:100%;
+	position: absolute;
+  top: 40%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+
+	max-width: 80%;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -58,9 +64,14 @@ a:hover{
 ::selection {
 	color: #1f8eef;
 }
-@media only screen and (max-width: 600px) {
-	.content {
-		padding-top: 35vh;
+@media only screen and (max-width: 800px) {
+	.content{
+		position: absolute;
+	  top: 50%;
+		left: 50%;
+	  -moz-transform: translateX(-50%) translateY(-50%);
+	  -webkit-transform: translateX(-50%) translateY(-50%);
+	  transform: translateX(-50%) translateY(-50%);
 	}
 	.name {
 		font-size: 11vmin;
