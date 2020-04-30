@@ -42,29 +42,26 @@ body{
 	text-align:center;
 	margin-top: 20px;
 }
-i{
+.router{
 	font-size: 3vmin;
 	margin: 1% 1%;
 	font-family: 'Source Code Pro', monospace;
 	font-style: normal;
 }
 a{
-	padding: 0.5% 0.5% 0.5% 0.5%;
-	border-radius: 5px;
 	text-decoration: none;
 }
-a:hover{
-	transition: background-color 0.3s ease-out;
-	background-color: rgba(255, 255, 255,0.1);
-	color:white !important;
-	transition: color 0s ease-out;
+.zoom {
+  transition: transform .01s;
+	display: inline-block;
+	margin: 20px;
 }
-#quote {
-	color:#161618;
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
 }
-::selection {
-	color: #1f8eef;
-}
+
 @media only screen and (max-width: 800px) {
 	.content{
 		position: absolute;
@@ -83,6 +80,8 @@ a:hover{
 	.bar i{
 		font-size: 3vmin;
 		display:inline-block;
-		margin: 10px 10px 10px 10px;
+	}
+	.zoom {
+		margin: 10px;
 	}
 }
