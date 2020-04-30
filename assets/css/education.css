@@ -5,6 +5,7 @@ body {
 	font-family: 'Lora', serif;
 	line-height: 1.3;
 	color:white;
+	margin:0;
 }
 .content{
 	width: 70vw;
