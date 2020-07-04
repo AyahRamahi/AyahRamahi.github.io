@@ -9,11 +9,11 @@ body{
 }
 .content{
 	position: absolute;
-  top: 40%;
-  left: 50%;
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+	top: 40%;
+	left: 50%;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
 
 	max-width: 80%;
 	margin-left:auto;
@@ -30,6 +30,11 @@ body{
 .emoji{
 	text-align: center;
 	margin-top: 20px;
+}
+i{
+	font-style: normal;
+	margin: 3px;
+	font-size: larger;
 }
 .desc{
 	margin-top:0;
