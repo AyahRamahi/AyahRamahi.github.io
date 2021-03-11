@@ -1,42 +1,42 @@
-name: Build GH-Pages
+name: github pages
 
 on:
   push:
-    paths-ignore:
-      - 'images/**'
-      - 'LICENSE'
-      - 'README.md'
     branches:
-      - master
-      - exampleSite
-  workflow_dispatch:
-    # manual run
+      - main  # Set a branch to deploy
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
-      - name: Git checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
         with:
-          ref: exampleSite
+          submodules: recursive  # Fetch the Docsy theme
+          fetch-depth: 0         # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Get Theme
-        run: git submodule update --init --recursive
-
-      - name: Update theme to Latest commit
-        run: git submodule update --remote --merge
-
-      - name: Setup hugo
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.81.0'
+          extended: true
 
-      - name: Build
-        run: hugo --buildDrafts --gc --verbose --minify
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '12.x'
+
+      - name: Cache dependencies
+        uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - run: npm ci
+      - run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.TOKEN }}
-          publish_dir: ./public
+          github_token: ${{ secrets.GITHUB_TOKEN }}
