@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ayah Al-Ramahi</title>
+    <link>https://ayahramahi.github.io/</link>
+    <description>Recent content on Ayah Al-Ramahi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://ayahramahi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://ayahramahi.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ayahramahi.github.io/about/</guid>
+      <description>Hi! My name is Ayah.  Experience Amazon.com - Software Development Engineering Intern
+Aug – Nov 2020, Jordan
+Beyond Limits AI - Front End Software Engineering Intern
+Jun – Aug 2020, CA, USA
+Nano Lab - Software Engineering Intern
+Dec 2019 – Jun 2020, Remote
+Salalem Education - Software Engineering Intern
+Sep – Nov 2019, Jordan
+Eskadenia Software - Software Engineering Intern
+Feb – May 2019, Jordan
+ Volunteering Association for Computing Machinery Student Chapter - Vice Chair</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://ayahramahi.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ayahramahi.github.io/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://ayahramahi.github.io/blog/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ayahramahi.github.io/blog/test/</guid>
+      <description> </description>
+    </item>
+    
+  </channel>
+</rss>

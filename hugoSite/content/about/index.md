@@ -4,8 +4,6 @@ title: About
 
 ### Hi! My name is Ayah.
 
-A computer engineering student at the the University of Jordan. I write `code`, read, think, and try to have fun while doing that.
-
 ---
 
 ### Experience
